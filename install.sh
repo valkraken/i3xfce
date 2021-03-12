@@ -13,7 +13,7 @@ echo "W0Rlc2t0b3AgRW50cnldCkVuY29kaW5nPVVURi04ClZlcnNpb249MC45LjQKVHlwZT1BcHBsaW
 
 
 kill $(ps aux | grep xfwm4 | grep -v grep | cut -d ' ' -f 11)
-kill $(ps aux | grep xdesktop | grep -v grep | cut -d ' ' -f 11)
+kill $(ps aux | grep xfdesktop | grep -v grep | cut -d ' ' -f 11)
 i3 
 dbus-send --session --dest=org.xfce.SessionManager --print-reply \/org/xfce/SessionManager org.xfce.Session.Manager.Checkpoint string:""
 
