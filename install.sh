@@ -2,7 +2,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # installs i3-gaps, nitrogen and compton
-sudo apt install i3-gaps nitrogen compton
+sudo apt install i3-gaps nitrogen compton -y
 
 # adds i3-gaps, nitrogen and comton to autostart
 mkdir ~/.config/autostart
